@@ -20,12 +20,12 @@ const teacher3: Teacher = {
 console.log(teacher3);
 
 // Define the Directors interface that extends Teacher
-interface Directors extends Teacher {
+interface Director extends Teacher {
   numberOfReports: number;
 }
 
 // Example Directors object
-const director1: Directors = {
+const director1: Director = {
   firstName: 'John',
   lastName: 'Doe',
   location: 'London',
